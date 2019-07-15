@@ -17,6 +17,7 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes for macOS 
 - Bluetooth
 - Webcam
 - Hotkeys (Audio controls, TrackPad On/Off)
+- Battery indicator
 
 ### Untested
 - HDMI output
