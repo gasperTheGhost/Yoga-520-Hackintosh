@@ -27,6 +27,7 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes for macOS 
 - TouchID (probably never will)
 - Full TrackPad support (3+ finger gestures, tap to click, right click)
 - Hotkeys (Refresh, Airplane mode, Lock, Brightness controlls, Webcam On/Off, Mic On/Off
+- Messages and FaceTime
 
 ## Installation notes
 1. Installation was done using a Unibeast USB (RehabMan's Clover build would not boot) with [RehabMan's HD 620 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/config_HD615_620_630_640_650.plist) on a secondary machine. This can be avoided by using the EFI partition posted here for booting the installer.
