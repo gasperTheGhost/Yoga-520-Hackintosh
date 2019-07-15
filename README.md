@@ -1,5 +1,5 @@
 # Yoga 520 Hackintosh
-Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes
+Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes for macOS Mojave 10.14.5
 
 **This build is a Work In Progress**
 
