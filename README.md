@@ -29,7 +29,7 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes
 - Hotkeys (Refresh, Airplane mode, Lock, Brightness controlls, Webcam On/Off, Mic On/Off
 
 ## Installation notes
-1. Installation was done using a Unibeast USB with [RehabMan's HD 620 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/config_HD615_620_630_640_650.plist) on a secondary machine. This can be avoided by using the EFI partition posted here for booting the installer.
+1. Installation was done using a Unibeast USB (RehabMan's Clover build would not boot) with [RehabMan's HD 620 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/config_HD615_620_630_640_650.plist) on a secondary machine. This can be avoided by using the EFI partition posted here for booting the installer.
 2. At this point booting worked only in safe mode (ig-platform-id: 0x12345678 caused kernel panic), BT and USB 3.0 worked out of the box
 3. After installation [Hackintool 2.6.9](https://www.tonymacx86.com/threads/release-hackintool-v2-6-9.254559/) was used for framebuffer patching using Kaby Lake Platform ID 0x591B0000
 4. Card reader support was enabled using [Sinetek-rtsx.kext](https://github.com/sinetek/Sinetek-rtsx) (Placed inside /EFI/CLOVER/kexts/Other)
