@@ -7,7 +7,7 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes for macOS 
 ### What Works
 - Keyboard
 - USB 3.0
-- Basic TrackPad support (Scrolling and zooming works, click only works with with button click not tap, no right click)
+- Full TrackPad support
 - Touchscreen and active stylus (tested with Wacom Bamboo Ink)
 - Graphics acceleration
 - Speakers and 3,5mm jack
@@ -26,7 +26,6 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes for macOS 
 ### What DOESNT Work
 - Internal WiFi (unsupported card Qualcomm Atheros QCA9377, can be replaced with [one of the supported Broadcom cards](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/))
 - TouchID (probably never will)
-- Full TrackPad support (3+ finger gestures, tap to click, right click)
 - Hotkeys (Refresh, Airplane mode, Lock, Brightness controlls, Webcam On/Off, Mic On/Off
 - Messages and FaceTime
 
@@ -38,3 +37,4 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes for macOS 
 5. Audio was enabled with AppleALC.kext and layout ID 15
 6. TrackPad support was enabled with [VoodooI2C.kext and VoodooI2CHID.kext](https://github.com/alexandred/VoodooI2C) and [patching the DSDT](https://voodooi2c.github.io/#Installation/Preparing%20your%20machine%20for%20VoodooI2C) with Windows 10 patch in MaciACL
 7. Hibernation was fixed by setting hibernationmode to 25 in [Hackintool 2.6.9](https://www.tonymacx86.com/threads/release-hackintool-v2-6-9.254559/)
+8. Battery and charging indication was enabled using [RehabMan's ACPIBatteryManager.kext](https://github.com/RehabMan/OS-X-ACPI-Battery-Driver), which also seemed to enable full TrackPad support (before this right click and tap to click did not work)
