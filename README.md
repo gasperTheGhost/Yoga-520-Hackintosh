@@ -27,7 +27,7 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition and installation notes for macOS 
 - Internal WiFi (unsupported card Qualcomm Atheros QCA9377, can be replaced with [one of the supported Broadcom cards](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/))
 - TouchID (probably never will)
 - Hotkeys (Refresh, Airplane mode, Lock, Brightness controlls, Webcam On/Off, Mic On/Off
-- Messages and FaceTime
+- Messages and FaceTime (Probably a consequence of incompatible network card)
 
 ## Installation notes
 1. Installation was done using a Unibeast USB (RehabMan's Clover build would not boot) with [RehabMan's HD 620 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/config_HD615_620_630_640_650.plist) on a secondary machine. This can be avoided by using the EFI partition posted here for booting the installer.
