@@ -17,6 +17,7 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition with support for macOS Catalina 1
 - Bluetooth
 - Webcam
 - Hotkeys (Audio controls, TrackPad On/Off)
+  - Brightness controls expect F14 and F15 so must be set manually to F11 and F12
 - Battery indicator
 
 ### Untested
@@ -26,5 +27,5 @@ Lenovo Yoga 520-14IKB Hackintosh EFI partition with support for macOS Catalina 1
 ### What DOESNT Work
 - Internal WiFi (unsupported card Qualcomm Atheros QCA9377, can be replaced with [one of the supported Broadcom cards](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/))
 - TouchID (probably never will)
-- Hotkeys (Refresh, Airplane mode, Lock, Brightness controlls, Webcam On/Off, Mic On/Off
+- Hotkeys (Refresh, Airplane mode, Lock, Webcam On/Off, Mic On/Off)
 - Messages and FaceTime (Probably a consequence of incompatible network card)
